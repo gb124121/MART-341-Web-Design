@@ -1,0 +1,7 @@
+Watch Cartoon Online, Amazon, Youtube
+
+IP is like your personal address its what identifies as your device and with the DNS its like address your searching for which gets sent back to you allow you to go to the website your looking up.
+
+a cookie use a small file containing messages on which your computer downloads allowing your device to access that sites info.
+
+Protocol, Domain, Path

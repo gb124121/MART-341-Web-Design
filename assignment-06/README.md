@@ -1,0 +1,3 @@
+They can only be used once only. The headder is the the first prioty for anything to be rendered so it takes precednece. The body is what makes up the site abd is rendered by the computer browser.
+Structural markup are what forms the document and how its structed throughout.Semantic markup however dont do that they give a emphasis to words or give a better meaning to that word.
+I didnt have to much diffculty this week just mostly trying to format my recie into nice readable info on how to make this food.

@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Instructables Page Zoom Button">
+        <meta name="viewport" content="width=device-width, initial-scale=6.0">
+        <title>Zoom USB Button</title>
+        <style>
+            div {
+                background-color: rgba(25, 179, 226, 0.719);
+                border: 1px black solid;
+            }
+            body {
+                font-family: 'Trebuchet MS', 
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>&vert;<a href="about.html">About Us</a>&vert;<a href="contact.html">Contact Us</a>
+        </nav>
+        <p>&nbsp;</p>
+        <h1>What is needed?</h1>
+        <ul>
+            <li>Push Buttons</li>
+            <li>Rotary Encoder.</li>
+            <li>Arduino pro micro</li>
+            <li>Wires</li>
+            <li>USB cable</li>
+            <li>Some sort of case</li>
+            <li>Soldering iron</li>
+            <li>Drill and drill bits</li>
+        </ul>
+
+        <h1>Zoom USB Button Instructable</h1>
+
+        <div><h2>Step 1 - Start Assembling</h2></div>
+        <div style="margin:auto; padding:10px">
+            <span style="padding:50px;">
+                <p>You will need to find a box for this project. You will need to decide on the size of this based on your switches.
+
+                    You can choose smaller switches like mine (12mm) or even go larger with arcade style switches. You can go simple like a show box, or a box your latest electronic gadget came in (phone, tablet, router, Lego, etc). Another option is a project box (search on Amazon) or making your own as I did out of wood. The world is your oyster.
+                    
+                    Based on your switch, make the appropriate sized holes in your box. Once the holes are made, fasten your switches.
+                    
+                    Make a separate hole for your rotary encoded. The hole will be big enough for the post and threaded body. The encoder will mount from below, unlike the switches.
+                    
+                    Your box will also need a hole for the USB cable.
+                    
+                    You can decide to mount the Arduino flush with the edge of the box, or more inside the box. If you flush mount, you will need a hole lined up with the USB connector.
+                    
+                    Once everything is in place, we can start connecting everything.</p>
+                <img src="images/step1.png" alt="Assembling" title="Assembling" /></span>
+            
+        </div>
+        
+        <div><h2>Step 2 - Wire It Up</h2></div>
+        <div style="margin:auto; padding:10px">
+            <span style="padding:50px;">
+                <p>Now that it is all assembled, we can start attaching all the wires.
+
+                    Start with the ground connections. Each switch has two contacts. One will be ground, the other will be the signal. Connect one contact from each switch together so they are daisy chained.
+                    
+                    The rotary encoder has 5 contacts... 3 on one side, 2 on the other. Connect the middle one of the 3, and one on the side with 2. These two pins will be connected to the daisy chained push button pins. These will all go to Ground on the Arduino.
+                    
+                    With the grounds out of the way, proceed to connect the remaining pins to the appropriate Arduino pin. Refer to the schematic for the correct pins on an Arduino micro.
+                    
+                    Once it is wired, you can program and test the Arduino</p>
+                <img src="images/step2.png" alt="Wire It Up" title="Wire It Up" /></span>
+            
+        </div>
+
+        <div><h2>Step 3 - Program Arduino</h2></div>
+        <div style="margin:auto; padding:10px">
+            <span style="padding:50px">
+                <p>You will now connect the Arduino to your computer and program it using the Arduino IDE.
+
+                    
+                     Once you have programed the Arduino, you can close up your project box and start using your new USB Zoom box.</p>
+                     If you have never used Arduino, you will find all the information you need at :
+                     
+                     <a href=https://www.arduino.cc/en/Guide target="_new"><em> Page on arduino</em></a>
+        </div>
+
+        <div><h2>Step 4 - Get Started</h2></div>
+        <div style="margin:auto; padding:10px">
+            <span style="padding:50px">
+                <p>Now, launch Zoom and get into a meeting.
+
+                    Your buttons are programmed to Mute, Raise Hand, Video On/Off, and switch between Gallery and Speaker view.
+                    
+                    If you have changed any of the default keys then you will need to reset them for the box to work properly.</p>
+                <img src="images/step3.png" alt="Start Using" title="Start Usiing" /></span>
+        </div>
+
+        <div><h2>To Learn More Here Is Another Box </h2></div>
+        <div style="margin:auto; padding:10px">
+            <span style="padding:50px"><iframe width="560" height="315" src="https://www.youtube.com/embed/Z7Sc4MJ8RPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </body>
+</html>

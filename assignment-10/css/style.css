@@ -4,7 +4,7 @@ body{
 
 .main-container {
     
-    /* Draw a solid border make it maroon */
+    /* Try to make this blue not to dark or light */
     border-style: solid;
     border-width: 10px;
     border-color: rgb(34, 100, 185);

@@ -1,0 +1,3 @@
+For the site they wanted a third party store and have access across the major brands but also that thise stores discount codes would work here. Their needs were the person knows who there buying from and gives that person a in depth veiw on that product.
+it should be normal to consider a mobile design because the world more an more goes into a world where everyone has a smaertphone and those people use that smartphone for serching info or streaming content instead of everyone conviently owing a pc/laptop.
+its was defintly a bit chanling making sure all these different pages content to the different webpages and also the pages I created.

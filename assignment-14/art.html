@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <title>My Client's Site</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Client">
+    <meta name="author" content="Montana Media Arts">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" text="text/css" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <body style="background-color:rgb(44, 68, 71);"></body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="art.html">Art</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" id="navbarDarkDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="services.html">Resources</a></li>
+                            <li><a class="dropdown-item" href="https://www.corsair.com/us/en/?gclid=EAIaIQobChMI5IS5lcON8AIVwwp9Ch1gcQvkEAAYASAAEgL6afD_BwE">Corsair</a></li>
+                            <li><a class="dropdown-item" href="https://www.razer.com">Razer</a></li>
+                            <li><a class="dropdown-item" href="https://www.logitechg.com/en-us">Logitech</a>
+                            </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="site-name">
+
+    </div>
+
+    <h1 class="p-4">Triple Circle By:Gage</h1>
+
+   <script>
+        function draw() {
+            
+            var canvas = document.getElementById('myCanvas');
+            var ctx = canvas.getContext('2d');
+            
+            ctx.lineWidth = 3;
+            
+            ctx.fillStyle = 'gray';
+            ctx.beginPath();
+            ctx.arc(90, 90, 60, 0, 2*Math.PI);
+            ctx.stroke();
+                    
+            ctx.beginPath();
+            ctx.arc(120, 150, 60, 0, 2*Math.PI);
+            ctx.stroke();
+    
+            ctx.beginPath();
+            ctx.arc(150, 100, 60, 0, 2*Math.PI);
+            ctx.stroke();        
+    
+            ctx.globalCompositeOperation='destination-out';
+    
+            ctx.beginPath();
+            ctx.arc(90, 90, 60, 0, 2*Math.PI);
+            ctx.fill();
+                    
+            ctx.beginPath();
+            ctx.arc(120, 150, 60, 0, 2*Math.PI);
+            ctx.fill();
+    
+            ctx.beginPath();
+            ctx.arc(150, 100, 60, 0, 2*Math.PI);
+            ctx.fill();
+        }
+    </script>
+    </head>
+    
+    <body onload="draw();">
+        <canvas id="myCanvas" width="400" height="350">
+        </canvas>
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

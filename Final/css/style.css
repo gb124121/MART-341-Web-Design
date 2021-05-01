@@ -1,0 +1,248 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+
+/* This is the animation, "animation.css." */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Baloo 2', cursive;
+}
+.banner-text {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.banner-text ul {
+	height: 50px;
+	float: right;
+}
+.banner-text ul li {
+	display: inline-block;
+	padding: 40px 15px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+}
+.banner-text ul li:hover {
+	cursor: pointer;
+}
+.banner-text h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	margin-top: 20%;
+}
+.animation-area {
+	background: linear-gradient(to left, #134280, #353333);
+	width: 150%;
+	height: 150vh;
+}
+.box-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 150%;
+	height: 137%;
+	overflow: hidden;
+}
+.box-area li {
+	position: absolute;
+	display: block;
+	list-style: none;
+	width: 30px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.2);
+	animation: animate 10s linear infinite;
+	bottom: -150px;
+}
+.box-area li:nth-child(1) {
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(2) {
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+}
+.box-area li:nth-child(3) {
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 5.5s;
+}
+.box-area li:nth-child(4) {
+	left: 42%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 10s;
+}
+.box-area li:nth-child(5) {
+	left: 65%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(6) {
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 2.5s;
+
+	
+}
+/* This is the pic fadin*/
+@keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
+.fade-in-image {
+	animation: fadeIn 5s;
+	-webkit-animation: fadeIn 5s;
+	-moz-animation: fadeIn 5s;
+	-o-animation: fadeIn 5s;
+	-ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+
+  @keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
+.fade-in-image2 {
+	animation: fadeIn 5s;
+	-webkit-animation: fadeIn 5s;
+	-moz-animation: fadeIn 5s;
+	-o-animation: fadeIn 5s;
+	-ms-animation: fadeIn 5s;
+	
+  }
+  @keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  @-moz-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  .main-container {
+    
+    /* Try to make this blue not to dark or light */
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(34, 100, 185);
+    /*Add space between the border and its inside elements. */
+    padding: 10px;
+    /* Color the background grey. */
+    background : rgb(97, 96, 94);
+    width: 75%;
+    margin: auto;
+}
+
+div.align{
+    text-align: left;
+}
+
+.secondary-container{
+	position: absolute;
+	left: 100px;
+	top: 500px;
+  }
+
+
+#mainheader{
+    position: relative;
+    left: 20px;
+    top:10px;
+    color: rgb(238, 143, 0);
+    opacity: .50;
+    font-size: 65px;
+}
